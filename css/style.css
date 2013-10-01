@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Black|Press+Start+2P|Source+Code+Pro:400,900);
+
+
+/* RESETS  ETC  */
+h1, h2, h3, h4, h5, h6, p, form, input, textarea, ul, li, a img, fieldset{
+	margin: 0; padding: 0;
+	border: 0; outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+:focus { outline: 0; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.clear { clear: both; } 
+/* END RESET */
+
+
+/* STANDARD SETUP */
+body{
+	margin: 20px 40px;
+	font-size: 12px;
+	font-family: Tahoma, Arial, Sans Serif;
+	font-weight: normal;
+	font-style: normal;
+	color : #000;
+	background-color: #fff;
+	border-style: none;
+}
+a {color:#0D78A4; font-weight:bold;}
+
+h1.title {margin: 40px 0; font-family: 'Press Start 2P';}
+h1.placeholder {margin: 40px 0; font-family: 'Press Start 2P'; background: url(../images/padxpcalc.png) no-repeat; text-indent: -9999px;}
+
+.label {font-size: 14px; font-family: 'Source Code Pro', Tahoma, sans-serif; }
+
+.message {display: none; background-color:#ffffe0;border:1px solid #e6db55; margin-bottom: 20px; width:400px; padding: 10px 20px;}
+.goodmessage {background-color:#b7db95 !important; border:1px solid #84B359 !important;}
+.badmessage {background-color:#ff4040 !important; border:1px solid #C33 !important;}
+
+
+tr.odd {background-color:#eee; }
+tr.even {background-color:#ddd; }
+
+
+/* FORM*/
+#PADform .label {padding: 2px 8px 0 0; width: 120px; height: 42px;}
+
+#PADform input[type=text], #PADform input.textInput {border:1px solid #666; width:275px; padding:5px 10px 5px 10px; border-radius: 5px; color:#000; height:30px}
+#PADform input[type=text]:focus {background:#f4fce8;} 
+
+#PADform button  {display:block; color:#fff;border:0;width:164px; height:35px; text-align:center; font-weight: bold;
+						line-height:35px; background: #666; font-size:16px; margin:0px 0 0 140px; border-radius: 5px;}
+#PADform button:hover {background:#2FC740; color:#fff;}
+
+#PADform label.error {color:#ea5200; padding-left:16px; font-weight:bold;}
+#PADform input.error, #PADform select.error {border:2px solid #ea5200 !important;}
+
+div.error, span.error {color:#ea5200;}
+
+.hint{font-size: 12px; font-family: 'Source Code Pro', Tahoma, sans-serif; font-weight: 900; color: #666;}
+#monsterDisplay{width:300px; padding-left:20px;}
