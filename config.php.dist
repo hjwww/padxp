@@ -1,0 +1,13 @@
+<?php
+
+$dbhost = "";	// eg. mysql.yourdomain.com (unique)
+$dbuser = "";	// the username specified when setting-up the database
+$dbpass = "";	// the password specified when setting-up the database
+$dbdata = "";	// the database name chosen when setting-up the database (unique)
+
+
+//$padxpdb = new mysqli($dbhost,$dbuser,$dbpass,$dbdata);
+//$padxpdb = mysql_connect($hostname,$username,$password);
+//mysql_select_db($database) or die("Unable to select database");
+
+?>
